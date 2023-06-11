@@ -22,16 +22,7 @@ class CategoryContainer extends Component {
             <div className='categories-container'>
 
                 {
-                    /* this.state.courseCategories.map(item => (
- 
-                         <CategoryItem key={item.id}
-                             title={item.title}
-                             imageUrl={item.imageUrl}
- 
-                         />
-                     ))*/
-
-
+                    
                     this.state.courseCategories.map(({ id, title, imageUrl }) => (
                         <CategoryItem key={id}
                             title={title}
